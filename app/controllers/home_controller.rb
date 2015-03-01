@@ -1,4 +1,4 @@
-class HomeController < ApplicationController
+class HomeController <ApplicationController
   def index
      right_now= Time.new 
     @current_time = right_now.to_formatted_s(:long)
@@ -12,7 +12,7 @@ class HomeController < ApplicationController
       when 16..19
        "Good Evening!"
     
-      when 20..24
+      when 20..00
        "Good Night!"
     end  
   end

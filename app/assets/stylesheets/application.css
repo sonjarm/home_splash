@@ -20,9 +20,11 @@
 
 
 html {
-font-family:indie flower;
+font-family:rock salt;
 font-size:2em;
-background-color: #CD1A98;  
+background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");  
+background-size: 1500px 860px;
+background-repeat: no-repeat;
 }
 
 #footer

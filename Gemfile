@@ -43,7 +43,7 @@ gem 'font-awesome-rails'
 
 group :development, :test do
   #gives us great and coloful puts functionality
-  gem 'awesome-print'
+  gem 'awesome_print'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 

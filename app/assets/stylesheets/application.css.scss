@@ -23,7 +23,7 @@ html {
 font-family:rock salt;
 font-size:2em;
 background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");  
-background-size: 1500px 860px;
+background-size: cover;
 background-repeat: no-repeat;
 }
 
@@ -50,4 +50,8 @@ left: 0;
 }
 #footer a:hover {
   color: #eef;
+}
+
+.shadowed {
+Text-shadow: 2px 2px 0 #000; // add shadow contrast
 }

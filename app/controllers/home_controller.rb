@@ -13,12 +13,10 @@ class HomeController <ApplicationController
        "Good Evening, Renee!"
     
       when 20..00
-       "Good Night!"
+       "Good Night!"      
 
-  @quote = Quote.all.sample.quip
-
-    end  
-
+@quote= Quote.all.sample.quip
+  end
   end
 end
 

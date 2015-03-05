@@ -4,19 +4,21 @@ class HomeController <ApplicationController
     @current_time = right_now.to_formatted_s(:long)
     @greet_message = case right_now.hour 
       when 1..11
-       "Good Morning, Renee!" 
+       "Good Morning, Sonja!" 
         
       when 12..15
-       "Good Afternoon, Renee!"
+       "Good Afternoon, Sonja!"
           
       when 16..19
-       "Good Evening, Renee!"
+       "Good Evening, Sonja!"
     
-      when 20..00
-       "Good Night!"      
-
-@quote= Quote.all.sample.quip
+      when 20..24
+       "Good Night, Sonja!"      
   end
+
+    @quote= Quote.all.sample.quip
+
+  
   end
 end
 

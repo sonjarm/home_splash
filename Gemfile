@@ -39,6 +39,9 @@ gem 'thin'
 #adding font awesomeness
 gem 'font-awesome-rails'
 
+#add authentication
+gem 'clearance'
+
 
 
 group :development, :test do
